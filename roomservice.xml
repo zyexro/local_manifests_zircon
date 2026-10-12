@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/zyexro" name="zy" />
+  <remote fetch="https://github.com/LineageOS" name="los" />
+  
+  <!-- device -->
+  <project path="device/xiaomi/zircon" name="android_device_xiaomi_zircon" remote="zy" revision="lineage-23.2"/>
+
+  <!-- hardware -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-23.2"/>
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-23.2"/>
+
+  <!-- kernel -->
+  <project path="kernel/xiaomi/mt6886" name="android_kernel_xiaomi_mt6886" remote="zy" revision="lineage-23.2"/>
+  <project path="kernel/xiaomi/mt6886-modules" name="android_kernel_xiaomi_mt6886-modules" remote="zy" revision="lineage-23.2"/>
+
+  <!-- sepolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-23.2"/>
+
+  <!-- vendor -->
+  <project path="vendor/xiaomi/zircon" name="proprietary_vendor_xiaomi_zircon" remote="zy" revision="lineage-23.2" />
+</manifest>
